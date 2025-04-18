@@ -1,0 +1,59 @@
+body{
+  background:white;
+}
+h1{
+  text-align:center;
+}
+.p1{
+  text-align:center;
+  font-size:17px;
+}
+.tgi{
+  width:200px;
+  height:200px;
+  border-radius:100px;
+}
+.tgi-d{
+  text-align:center;
+}
+.ver{
+  background:transparent;
+  height:30px;
+  text-align:center;
+  box-shadow:0px 10px 20px #E1E1E1;
+  border-radius:15px;
+  color:white;
+  margin-top:16%;
+}
+.ver:focus{
+  outline:none;
+  border:2px solid #55FF61;
+}
+.login-part{
+  background-image:url('back.jpg');
+  background-size:cover;
+  background-position:180deg;
+  text-align:center;
+  height:340px;
+  border-radius:20px;
+}
+.next{
+  background:#5E55FF;
+  color:white;
+  font-size:20px;
+  font-weight:700;
+  padding:7px 25px;
+  border:none;
+  border-radius:17px;
+}
+.p2{
+  color:red;
+}
+.p3{
+  color:white;
+}
+p4{
+  color:red;
+  font-size:18px;
+  font-weight:700;
+}
